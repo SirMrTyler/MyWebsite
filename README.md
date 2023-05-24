@@ -1,4 +1,7 @@
 # MyWebsite
+Bug List:
+1. Currently there is an issue where the PlayerMovement.js file that is causing the PC to continously drop whilst not accepting input from WASD. 
+
 If you're attempting to develop this project further for your own purposes you will need to have the following installed or added as a dependency:
 1. Node.js: This will give you a node_modules folder
 2. expo: This is the library we use for real time updates to the DOM
