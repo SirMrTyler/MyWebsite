@@ -15,7 +15,7 @@ function Resume() {
     const downloadResume = () => {
         const link = document.createElement('a');
         downloadBtnAnimation();
-        link.href = "https://drive.google.com/uc?export=download&id=15SJhiHhzfQyJyu2jOa3Ha0G8uhmODYez";
+        link.href = "https://www.dl.dropboxusercontent.com/scl/fi/h0ajp3g6xqda8vp33mdgi/Tyler-Klein-Software-Engineer.pdf?rlkey=ni8uhpr5crm1oebxckwwmbwl5&dl=1";
         link.download = "TylerKlein_FullStackSoftwareEngineer.pdf";
         link.click();
     };
