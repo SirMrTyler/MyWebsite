@@ -1,13 +1,12 @@
 import {Document, Page, pdfjs} from "react-pdf";
-import pdfFile from "../images/TylerKlein_SoftwareEngineer.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     "pdfjs-dist/build/pdf.worker.min.js",
     import.meta.url
   ).toString();
 
-function PdfPreviewCard({pageNumber}) {
-    
+function PdfPreviewCard() {
+    const pdfFile = "https://www.dl.dropboxusercontent.com/scl/fi/h0ajp3g6xqda8vp33mdgi/Tyler-Klein-Software-Engineer.pdf?rlkey=ni8uhpr5crm1oebxckwwmbwl5&dl=1";
     const onDocumentLoadError = (error) => {
         console.error('PDF load error: ', error);
     };
@@ -15,7 +14,7 @@ function PdfPreviewCard({pageNumber}) {
     return (
         <div className="pdf-preview-card">
             <Document file={pdfFile} onLoadError={onDocumentLoadError}>
-                <Page pageNumber={pageNumber}/>
+                <Page pageNumber={1}/>
             </Document>
         </div>
     );
