@@ -1,9 +1,7 @@
 import {Document, Page, pdfjs} from "react-pdf";
+import Worker from "pdfjs-dist/webpack";
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-    "pdfjs-dist/build/pdf.worker.min.js",
-    import.meta.url
-  ).toString();
+pdfjs.GlobalWorkerOptions.workerSrc = Worker;
 
 function PdfPreviewCard() {
     const pdfFile = "https://www.dl.dropboxusercontent.com/scl/fi/h0ajp3g6xqda8vp33mdgi/Tyler-Klein-Software-Engineer.pdf?rlkey=ni8uhpr5crm1oebxckwwmbwl5&dl=1";
