@@ -19,8 +19,8 @@ function Projects() {
                                 description="A simulated website where users would rent luxury/sport cars."
                                 framework1="React"
                                 framework2="SCSS"
-                                code="some-website.com"
-                                demo="some-demo-website.com"
+                                code="https://github.com/SirMrTyler/top-racing/tree/main"
+                                demo="https://top-racing.sirmrtyler.tech"
                                 panY="-80%"
                                 decal="🏎️"
                             />
