@@ -13,7 +13,7 @@ function Projects() {
                         <h3>Designs crafted to mirror your industry's nuances 🧩</h3>
                         <div className="projects-grid">
                             <ProjectCard
-                                title="Wild Whips Rental"
+                                title="Top Racing"
                                 img={carRental}
                                 date="(December 2023)"
                                 description="A simulated website where users would rent luxury/sport cars."
