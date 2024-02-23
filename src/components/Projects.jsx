@@ -26,7 +26,7 @@ function Projects() {
                             />
 
                             <ProjectCard
-                                title="Sir-Mr-Tyler Fitness"
+                                title="Fitness Page (Work in Progress)"
                                 img={flexPose}
                                 date="(December 2023)"
                                 description="An individualized fitness website for a personal trainer to showcase their services."
@@ -39,7 +39,7 @@ function Projects() {
                             />
 
                             <ProjectCard
-                                title="Carpentry Cap"
+                                title="Carpentry Cap (Work in Progress)"
                                 img={carpentry}
                                 date="(December 2023)"
                                 description="A simulated website where a carpenter would showcase their products/services."
