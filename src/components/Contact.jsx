@@ -1,4 +1,4 @@
-import { IconMail, IconMapSearch, IconPhone } from "@tabler/icons-react";
+import { IconMail, IconPhone, IconWorldSearch } from "@tabler/icons-react";
 
 function Contact() {
   return (
@@ -11,38 +11,41 @@ function Contact() {
               <h3>Thanks for visiting! Reach out below 👇</h3>
             </div>
             <div className="contact__icons">
-              <div className="contact__icon-box">
-                <span>
-                  <IconMapSearch width={30} height={30} />
-                </span>
-                <div className="contact__info">
-                  <h3>Location</h3>
-                  <p>Coosbay, Oregon</p>
+              <a href="https://linqapp.com/bmcard-a99c6d2df03e4fcbb2080f7330" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+                <div className="contact__icon-box">
+                  <span>
+                    <IconWorldSearch width={30} height={30} />
+                  </span>
+                  <div className="contact__info">
+                    <h3>All Forms of Contact</h3>
+                    <p>Click Me! 😊</p>
+                  </div>
                 </div>
-              </div>
+              </a>
 
-              <div className="contact__icon-box">
-                <span>
-                  <IconMail width={30} height={30} />
-                </span>
-                <div className="contact__info">
-                  <h3>E-Mail</h3>
-                  <a href="mailto:sirmrtyler.business@gmail.com">
-                  sirmrtyler.business@gmail.com
-                  </a>
+              <a href="mailto:sirmrtyler.business@gmail.com" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+                <div className="contact__icon-box">
+                  <span>
+                    <IconMail width={30} height={30} />
+                  </span>
+                  <div className="contact__info">
+                    <h3>E-Mail</h3>
+                    sirmrtyler.business@gmail.com
+                  </div>
                 </div>
-              </div>
-              <div className="contact__icon-box">
-                <span>
-                  <IconPhone width={30} height={30} />
-                </span>
-                <div className="contact__info">
-                  <h3>Phone</h3>
-                  <a href="tel:+14088096158">
-                  +1 (408) 809-6158
-                  </a>
+              </a>
+
+              <a href="tel:+14088096158" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
+                <div className="contact__icon-box">
+                  <span>
+                    <IconPhone width={30} height={30} />
+                  </span>
+                  <div className="contact__info">
+                    <h3>Phone</h3>
+                    +1 (408) 809-6158
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>

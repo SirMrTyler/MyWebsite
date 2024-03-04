@@ -7,6 +7,8 @@ function ProjectCard({
     description,
     framework1,
     framework2,
+    framework3,
+    framework4,
     code,
     demo,
     panY,
@@ -45,6 +47,8 @@ function ProjectCard({
                     <div className="stack">
                         <p>{framework1}</p>
                         <p>{framework2}</p>
+                        {framework3 && <p>{framework3}</p>} {/* new line */}
+                        {framework4 && <p>{framework4}</p>} {/* new line */}
                     </div>
                     <div className="links">
                         <a target="_blank" ref={codeRef} href={code} rel="noreferrer">

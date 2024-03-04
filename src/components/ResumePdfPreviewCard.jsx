@@ -3,8 +3,8 @@ import Worker from "pdfjs-dist/webpack";
 
 pdfjs.GlobalWorkerOptions.workerSrc = Worker;
 
-function PdfPreviewCard() {
-    const pdfFile = "https://www.dl.dropboxusercontent.com/scl/fi/h0ajp3g6xqda8vp33mdgi/Tyler-Klein-Software-Engineer.pdf?rlkey=ni8uhpr5crm1oebxckwwmbwl5&dl=1";
+function PdfPreviewCard({pageNumber}) {
+    const pdfFile = "https://www.dl.dropboxusercontent.com/scl/fi/whys1wtse0hfy28osmcgh/Tyler-Klein-Full-Stack-Software-Engineer.pdf?rlkey=ro97dok0kz85des5mvev2r1dv&dl=0";
     const onDocumentLoadError = (error) => {
         console.error('PDF load error: ', error);
     };
@@ -12,7 +12,7 @@ function PdfPreviewCard() {
     return (
         <div className="pdf-preview-card">
             <Document file={pdfFile} onLoadError={onDocumentLoadError}>
-                <Page pageNumber={1}/>
+                <Page pageNumber={pageNumber}/>
             </Document>
         </div>
     );

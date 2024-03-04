@@ -26,7 +26,7 @@ const Navbar = () => {
         <>
             <nav>
                 <h3 onClick={pageUp} className='logo'>
-                    SirMrTyler.dev
+                    SirMrTyler.Tech
                 </h3>
                 <ul>
                     {navLinks.map((item) => (

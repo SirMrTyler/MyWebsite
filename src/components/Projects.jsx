@@ -26,12 +26,14 @@ function Projects() {
                             />
 
                             <ProjectCard
-                                title="Fitness Page (Work in Progress)"
+                                title="Google Flash Cards (Work in Progress)"
                                 img={flexPose}
                                 date="(December 2023)"
-                                description="An individualized fitness website for a personal trainer to showcase their services."
+                                description="A simulated website where users would create flash cards for studying from a google sheet document"
                                 framework1="React"
-                                framework2="Tailwind CSS"
+                                framework2="CSS"
+                                framework3="SQL"
+                                framework4=".NET Core"
                                 code="some-website.com"
                                 demo="some-demo-website.com"
                                 panY="-200%"
