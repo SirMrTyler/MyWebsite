@@ -26,16 +26,14 @@ function Projects() {
                             />
 
                             <ProjectCard
-                                title="Google Flash Cards (Work in Progress)"
+                                title="Mo's Chowder Seating Chart"
                                 img={flexPose}
-                                date="(December 2023)"
-                                description="A simulated website where users would create flash cards for studying from a google sheet document"
+                                date="September 2024"
+                                description="A simple seating chart for the Mo's Chowder restaurant."
                                 framework1="React"
                                 framework2="CSS"
-                                framework3="SQL"
-                                framework4=".NET Core"
-                                code="some-website.com"
-                                demo="some-demo-website.com"
+                                code="https://github.com/SirMrTyler/Host-Seating-Chart-Moes"
+                                demo="https://host-seating-chart-moes.vercel.app/"
                                 panY="-200%"
                                 decal="🔥"
                             />
