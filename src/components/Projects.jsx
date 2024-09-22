@@ -35,7 +35,7 @@ function Projects() {
                                 code="https://github.com/SirMrTyler/Host-Seating-Chart-Moes"
                                 demo="https://host-seating-chart-moes.vercel.app/"
                                 panY="-200%"
-                                decal="🔥"
+                                decal="🥣"
                             />
 
                             <ProjectCard
