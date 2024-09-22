@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import carRental from "../images/car-rental-full.jpg";
 import flexPose from "../images/flexPose.jpg";
 import carpentry from "../images/carpentry.jpg";
+import mosChowder from "../images/mos-chowder.jpg";
 
 function Projects() {
     return (
@@ -27,7 +28,7 @@ function Projects() {
 
                             <ProjectCard
                                 title="Mo's Chowder Seating Chart"
-                                img={flexPose}
+                                img={mosChowder}
                                 date="September 2024"
                                 description="A simple seating chart for the Mo's Chowder restaurant."
                                 framework1="React"
