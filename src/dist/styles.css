@@ -409,7 +409,7 @@
 
   /*-----------------------------------ABOUT ME----------------------------------- */
   .about {
-    background-color: white;
+    background-color: #dfdfdf;
     padding: 15rem 0;
   }
   @media (max-width: 1020px) {
@@ -567,7 +567,7 @@
 
   /*------------------------------------PROJECTS---------------------------------- */
   .project {
-    background-color: #f9f9f9;
+    background-color: #dfdfdf;
     padding: 15rem 0;
   }
   @media (max-width: 1020px) {
@@ -778,7 +778,7 @@
 
   /*---------------------------------------RESUME----------------------------------*/
   .resume {
-    background-color: white;
+    background-color: #dfdfdf;
     padding: 10rem 0;
   }
   @media (max-width: 1020px) {
