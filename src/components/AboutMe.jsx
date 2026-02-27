@@ -18,25 +18,22 @@ function AboutMe() {
             <div className="text-side">
               <h3>About me</h3>
               <h4>
-                Full-Stack Software Developer based in Coosbay, OR
+                Software Engineering Intern & Full-Stack Developer based in Oregon
                 📍
               </h4>
               <p>
-                As a Junior Full-Stack Developer, I utilize 
-                cutting-edge developmental libraries/frameworks to 
-                create engaging user experiences by writing clean, 
-                optimized, and scalable code. My Front-End skills 
-                include an expertise in HTML5, CSS, JavaScript, 
-                React, and SCSS used in designing and maintaining 
-                responsive websites that offer a smooth front-end 
-                user experience. This contributes to my powerful 
-                Back-End system knowledge where I implement SQL/T-SQL 
-                stored procedures that provide reliable database 
-                systems by creating RESTful .NETCore WEB APIs using 
-                C# in Microsoft Visual Studio. This seamlessly links 
-                my Front-End designs to my Back-End database systems.
-                I look forward to the possiblity of growing with your 
-                team!
+                I am a Computer Science student at Oregon State University (expected 2027)
+                with hands-on experience delivering production-minded software in both
+                internship and full-time engineering roles. I currently serve as an ML
+                Systems Intern at Analog Devices, where I help build machine-learning-driven
+                diagnostic workflows for hardware systems, and previously worked as a Full-Stack
+                Software Engineer building scalable .NET and React applications.
+                <br /><br />
+                My technical background spans C#/.NET Core, React, SQL Server, Python,
+                REST API development, authentication/authorization, and Agile delivery.
+                I focus on writing maintainable code, improving system reliability, and
+                collaborating effectively across cross-functional teams to ship measurable
+                outcomes.
               </p>
             </div>
           </div>

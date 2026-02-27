@@ -1,6 +1,5 @@
 import ProjectCard from "./ProjectCard";
 import carRental from "../images/car-rental-full.jpg";
-import flexPose from "../images/flexPose.jpg";
 import carpentry from "../images/carpentry.jpg";
 import mosChowder from "../images/mos-chowder.jpg";
 
