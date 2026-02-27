@@ -174,7 +174,7 @@
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background-color: #dfdfdf;
+    background-color: #ececec;
     position: relative;
   }
   @media (max-width: 900px) {
@@ -409,7 +409,7 @@
 
   /*-----------------------------------ABOUT ME----------------------------------- */
   .about {
-    background-color: #dfdfdf;
+    background-color: #ececec;
     padding: 15rem 0;
   }
   @media (max-width: 1020px) {
@@ -567,7 +567,7 @@
 
   /*------------------------------------PROJECTS---------------------------------- */
   .project {
-    background-color: #dfdfdf;
+    background-color: #ececec;
     padding: 15rem 0;
   }
   @media (max-width: 1020px) {
@@ -778,7 +778,7 @@
 
   /*---------------------------------------RESUME----------------------------------*/
   .resume {
-    background-color: #dfdfdf;
+    background-color: #ececec;
     padding: 10rem 0;
   }
   @media (max-width: 1020px) {
