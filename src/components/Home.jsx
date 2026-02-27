@@ -1,5 +1,6 @@
 import "../dist/styles.css";
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
+import * as skills from "../images/skills";
 // import "../images/html5.svg";
 // import "../images/css.svg";
 // import "../images/sass.svg";
@@ -14,19 +15,19 @@ import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 // import "../images/blender.svg";
 
 const skillsIcons = [
-    { img: "https://cdn.worldvectorlogo.com/logos/html5-2.svg", id: 1, },
-    { img: "https://cdn.worldvectorlogo.com/logos/css-3.svg", id: 2, },
-    { img: "https://cdn.worldvectorlogo.com/logos/sass-1.svg", id: 3, },
-    { img: "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg", id: 4, },
-    { img: "https://cdn.worldvectorlogo.com/logos/jquery-4.svg", id: 5, },
-    { img: "https://cdn.worldvectorlogo.com/logos/react-2.svg", id: 6, },
-    { img: "https://cdn.worldvectorlogo.com/logos/dot-net-core-7.svg", id: 7, },
-    { img: "https://cdn.worldvectorlogo.com/logos/c--4.svg", id: 8, },
-    { img: "https://www.svgrepo.com/show/331760/sql-database-generic.svg", id: 9, },
-    { img: "https://cdn.worldvectorlogo.com/logos/unreal-1.svg", id: 10, },
-    { img: "https://cdn.worldvectorlogo.com/logos/c.svg", id: 11, },
-    { img: "https://cdn.worldvectorlogo.com/logos/blender-1.svg", id: 12, },
-    { img: "https://cdn.worldvectorlogo.com/logos/git-icon.svg", id: 13, },
+    { img: skills.html5, id: 1, },
+    { img: skills.css3, id: 2, },
+    { img: skills.sass, id: 3, },
+    { img: skills.js, id: 4, },
+    { img: skills.jquery, id: 5, },
+    { img: skills.react, id: 6, },
+    { img: skills.dotNetCore, id: 7, },
+    { img: skills.cSharp, id: 8, },
+    { img: skills.sql, id: 9, },
+    { img: skills.unreal, id: 10, },
+    { img: skills.cPlus, id: 11, },
+    { img: skills.blender, id: 12, },
+    { img: skills.git, id: 13, },
 ]
 
 const skillUrls = [
